@@ -1,0 +1,56 @@
+#reloj_con_fecha {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#reloj_con_fecha {
+   /* background: url("../img/reloj/16-bit-streets-of-rage-city-night-wallpaper-preview.jpg") #007bff ;
+    background: url("../img/reloj/siluetaBCN.jpg") #007bff ;*/
+    background: url("../img/reloj/manresa.jpg") #007bff ;
+    background-size: cover;
+    background-position: center;
+    color:#ffffff;
+    font-size: 16px;
+}
+
+#reloj_con_fecha .wrap {
+   /* max-width: 800px;*/
+    margin: auto;
+
+;
+}
+#reloj_con_fecha .widget {
+    width: 100%;
+    /*  background: rgba(0,0,0,.5);
+  margin: 2em;*/
+}
+#reloj_con_fecha .widget p{
+    display: inline-block;
+}
+#reloj_con_fecha .fecha{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.3125rem;
+    background: rgba(0,0,0,.2);
+    padding: 20px;
+    width: 100%;
+}
+#reloj_con_fecha .reloj {
+    width: 100%;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background: rgba(0,0,0,.2);
+}
+#reloj_con_fecha .reloj .caja-segundos {
+    display: inline-block;
+}
+#reloj_con_fecha .reloj .segundos , #reloj_con_fecha .reloj .ampm {
+    font-size: 2.2rem;
+    display: block;
+    line-height: 1em;
+    margin: 0;
+}
